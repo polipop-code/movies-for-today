@@ -1,0 +1,13 @@
+.SocialMediaIcon {
+	width: 6rem;
+	margin: 0 1.2rem;
+	transition: all 0.12s ease-out;
+}
+
+.SocialMediaIcon:hover {
+	transform: translateY(-0.4rem);
+}
+
+.SocialMediaIcon:active {
+	transform: translateY(0.4rem);
+}

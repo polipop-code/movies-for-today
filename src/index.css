@@ -1,3 +1,21 @@
+:root {
+	--light-blue: #c1efff;
+	--light-pink: #ffb3b3;
+
+	--default-noir: #273b47;
+	--light-noir: #364552;
+
+	--yellow: #eecc75;
+	--green: #cad297;
+	--aqua: #b7eac5;
+	--lightBlue: #a2eee5;
+	--darkBlue: #8ea2ea;
+	--red: #f09d9d;
+
+	--font-family-titles: "Quicksand", sans-serif;
+	--font-family-text: "Quicksand", sans-serif;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -10,8 +28,8 @@ html {
 }
 
 body {
-	font-family: "Quicksand", sans-serif;
-	color: #273b47;
+	font-family: var(--font-family-text);
+	color: var(--default-noir);
 	font-size: 1.6rem;
 	text-rendering: optimizeLegibility;
 	line-height: 1.5;
@@ -23,6 +41,7 @@ h3,
 h4,
 h5,
 h6 {
+	font-family: var(--font-family-titles);
 	line-height: normal;
 }
 

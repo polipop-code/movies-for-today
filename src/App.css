@@ -2,3 +2,9 @@
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 }
+
+.movie-container {
+	grid-column: 2 / 12;
+	margin-bottom: 4rem;
+	background-color: antiquewhite;
+}

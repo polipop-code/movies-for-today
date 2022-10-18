@@ -1,0 +1,26 @@
+[
+	{
+		"name": "LinkedIn",
+		"profileURL": "https://www.linkedin.com/in/jesus-politron/",
+		"imageURL": "https://cdn-icons-png.flaticon.com/512/2111/2111368.png",
+		"alt": ""
+	},
+	{
+		"name": "GitHub",
+		"profileURL": "https://github.com/polipop-code",
+		"imageURL": "https://cdn-icons-png.flaticon.com/512/2111/2111292.png",
+		"alt": ""
+	},
+	{
+		"name": "InstaGram",
+		"profileURL": "https://www.instagram.com/polipop_art/",
+		"imageURL": "https://cdn-icons-png.flaticon.com/512/2111/2111336.png",
+		"alt": ""
+	},
+	{
+		"name": "Twitter",
+		"profileURL": "https://twitter.com/polipop_art",
+		"imageURL": "https://cdn-icons-png.flaticon.com/512/2111/2111580.png",
+		"alt": ""
+	}
+]
