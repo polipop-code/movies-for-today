@@ -1,0 +1,21 @@
+.MovieContainer {
+	grid-column: 2 / 12;
+	margin-bottom: 4rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+@media (min-width: 720px) {
+	.MovieContainer {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 0 4rem;
+	}
+}
+
+@media (min-width: 1440px) {
+	.MovieContainer {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}

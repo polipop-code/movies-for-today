@@ -3,7 +3,7 @@ import "./footer.css";
 import { SocialMediaIcon } from "../socialMediaIcon";
 import socialMedia from "../../api/socialMedia.json";
 
-function Footer() {
+const Footer = () => {
 	return (
 		<footer className="Footer">
 			<section className="section--credits">
@@ -28,6 +28,6 @@ function Footer() {
 			</section>
 		</footer>
 	);
-}
+};
 
 export { Footer };

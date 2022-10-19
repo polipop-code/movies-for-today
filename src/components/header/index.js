@@ -1,13 +1,13 @@
 import React from "react";
 import "./header.css";
 
-function Header() {
+const Header = () => {
 	return (
 		<header className="Header">
 			<section></section>
 			<section></section>
 		</header>
 	);
-}
+};
 
 export { Header };

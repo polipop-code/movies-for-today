@@ -1,0 +1,15 @@
+.MoviePoster {
+	width: 100%;
+	margin-bottom: 4rem;
+	padding: 2rem;
+	border-radius: 0.4rem;
+	box-shadow: 0 0.4rem 0.8rem 0 rgba(54, 69, 82, 0.4);
+	background-color: white;
+}
+
+.MoviePoster img {
+	width: 100%;
+	margin-bottom: 1.2rem;
+	border-radius: 0.4rem;
+	object-fit: cover;
+}

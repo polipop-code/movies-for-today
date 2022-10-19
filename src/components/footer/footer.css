@@ -2,7 +2,7 @@
 	grid-column: 1 / 13;
 	display: flex;
 	flex-direction: column;
-	background-color: #364552;
+	background-color: var(--light-noir);
 	color: white;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .section--credits a:hover {
-	color: skyblue;
+	color: var(--light-blue);
 }
 
 .section--credits a:active {
