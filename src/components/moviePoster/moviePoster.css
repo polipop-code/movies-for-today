@@ -1,15 +1,31 @@
 .MoviePoster {
 	width: 100%;
-	margin-bottom: 4rem;
-	padding: 2rem;
-	border-radius: 0.4rem;
-	box-shadow: 0 0.4rem 0.8rem 0 rgba(54, 69, 82, 0.4);
-	background-color: white;
+	max-width: 36rem;
+	margin-right: 4rem;
+	display: flex;
+	flex-direction: column;
+	flex: 0 0 auto;
+	box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.12), 0 0.2rem 0.2rem rgba(0, 0, 0, 0.24);
+	background-color: var(--light-noir);
 }
 
 .MoviePoster img {
 	width: 100%;
-	margin-bottom: 1.2rem;
-	border-radius: 0.4rem;
 	object-fit: cover;
+}
+
+.moviePoster__description {
+	margin: 2rem;
+	padding: 2rem;
+	border-left: 0.8rem solid var(--soft-wite);
+	color: var(--soft-wite);
+}
+
+.moviePoster__description p:nth-child(2) {
+	margin: 0.8rem 0;
+}
+
+.moviePoster__description span {
+	font-weight: bold;
+	color: var(--light-blue);
 }

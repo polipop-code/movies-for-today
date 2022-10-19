@@ -1,7 +1,7 @@
 :root {
 	--light-blue: #c1efff;
 	--light-pink: #ffb3b3;
-	--soft-wite: #e9e9e9;
+	--soft-wite: #fffffc;
 
 	--default-noir: #273b47;
 	--light-noir: #364552;
@@ -79,3 +79,17 @@ a {
 button {
 	cursor: pointer;
 }
+
+/*
+::-webkit-scrollbar {
+	width: 1.2rem;
+	height: 1.2rem;
+}
+
+::-webkit-scrollbar-thumb {
+	border: 0.4rem solid rgba(0, 0, 0, 0);
+	border-radius: 0.2rem;
+	background-clip: padding-box;
+	background: #888;
+}
+*/
