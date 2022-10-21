@@ -1,0 +1,20 @@
+.CategoryElement {
+	margin: 0.4rem 0.8rem;
+	padding: 0.8rem 1.2rem;
+	border: none;
+	border-left: 0.4rem solid var(--light-pink);
+	background-color: transparent;
+	display: inline-block;
+	transition: all 0.12s ease-out;
+}
+
+.CategoryElement:hover {
+	transform: translateY(-0.4rem);
+	border-left: 0.4rem solid var(--light-blue);
+	background-color: var(--light-noir);
+	color: white;
+}
+
+.CategoryElement:active {
+	transform: translateY(0.4rem);
+}

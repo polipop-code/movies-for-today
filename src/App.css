@@ -2,3 +2,13 @@
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 }
+
+.App h2 {
+	grid-column: 2 / 12;
+	margin-bottom: 4rem;
+	padding: 2rem;
+	border-left: 0.8rem solid var(--light-blue);
+	text-align: center;
+	background-color: var(--light-noir);
+	color: white;
+}
