@@ -1,5 +1,5 @@
 .CategoryElement {
-	margin: 0.4rem 0.8rem;
+	margin: 0.4rem 0.4rem 0.4rem 0;
 	padding: 0.8rem 1.2rem;
 	border: none;
 	border-left: 0.4rem solid var(--light-pink);
