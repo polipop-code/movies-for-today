@@ -6,19 +6,23 @@ import { Footer } from "./components/footer";
 import { useEffect, useState } from "react";
 
 function App() {
-	const [movies, setmovies] = useState([]);
+	const [movies, setMovies] = useState([]);
+	const [mvpMovie, setMvpMovie] = useState(null);
 
 	useEffect(() => {
 		fetch(
 			"https://api.themoviedb.org/3/trending/movie/day?api_key=" + process.env.REACT_APP_API_KEY
 		)
 			.then((response) => response.json())
-			.then((data) => setmovies(data.results));
+			.then((data) => {
+				setMovies(data.results);
+				setMvpMovie(data.results[0]);
+			});
 	}, []);
 
 	return (
 		<div className="App">
-			<Header movie={movies[0]} />
+			<Header movie={mvpMovie} />
 			<h2>Popular movies of today</h2>
 			<MovieContainer movies={movies} />
 			<h2>Most popular by category</h2>

@@ -4,17 +4,6 @@ import { MoviePoster } from "../moviePoster";
 // import { useEffect, useState } from "react";
 
 const MovieContainer = ({ movies }) => {
-	// Reminder: do the API calls in the correct section
-	// const [movies, setmovies] = useState([]);
-
-	// useEffect(() => {
-	// 	fetch(
-	// 		"https://api.themoviedb.org/3/trending/movie/day?api_key=" + process.env.REACT_APP_API_KEY
-	// 	)
-	// 		.then((response) => response.json())
-	// 		.then((data) => setmovies(data.results));
-	// }, []);
-
 	return (
 		<div className="MovieContainer">
 			{movies.map((movie) => {
