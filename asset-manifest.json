@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/movies-for-today/static/css/main.9df88219.css",
-    "main.js": "/movies-for-today/static/js/main.2f4ad855.js",
+    "main.js": "/movies-for-today/static/js/main.a555f7f9.js",
     "index.html": "/movies-for-today/index.html",
     "main.9df88219.css.map": "/movies-for-today/static/css/main.9df88219.css.map",
-    "main.2f4ad855.js.map": "/movies-for-today/static/js/main.2f4ad855.js.map"
+    "main.a555f7f9.js.map": "/movies-for-today/static/js/main.a555f7f9.js.map"
   },
   "entrypoints": [
     "static/css/main.9df88219.css",
-    "static/js/main.2f4ad855.js"
+    "static/js/main.a555f7f9.js"
   ]
 }
