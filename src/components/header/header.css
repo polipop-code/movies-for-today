@@ -19,7 +19,7 @@
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	height: 40vh;
+	/* height: 40vh; */
 	padding: 2rem;
 	border-radius: 1.2rem 1.2rem 0 0;
 	background-color: var(--soft-wite);
