@@ -2,3 +2,13 @@
 	grid-column: 2 / 12;
 	margin-bottom: 4rem;
 }
+
+.category-navBar {
+	margin-bottom: 4rem;
+}
+
+.category-results {
+	width: 100%;
+	display: flex;
+	overflow: auto;
+}
